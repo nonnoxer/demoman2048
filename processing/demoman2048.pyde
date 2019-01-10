@@ -15,7 +15,7 @@ class Square:
             fill("#ECE0CA")
             rect(self.x, self.y, 160, 160, 20)
             imageMode(CENTER)
-            image(self.pic, self.x, self.y, self.num, self.num)
+            image(self.pic, self.x, self.y, self.num * 10, self.num * 10)
 
 def setup():
     size(740, 740)
